@@ -11,7 +11,37 @@ export default function Home() {
           name="description"
           content="Core Web Vitals are the subset of Web Vitals that apply to all web pages, should be measured by all site owners, and will be surfaced across all Google tools"
         />
-        <meta name="canonical" content="/" />
+
+        <meta
+          property="og:url"
+          content="https://test-next-seo.netlify.app/article/"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Core Web Vitals" />
+        <meta
+          property="og:description"
+          content="Core Web Vitals are the subset of Web Vitals that apply to all web pages, should be measured by all site owners, and will be surfaced across all Google tools"
+        />
+        <meta
+          property="og:image"
+          content="https://web-dev.imgix.net/image/tcFciHGuF3MxnTr1y5ue01OGLBn2/ZZU8Z7TMKXmzZT2mCjJU.svg"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="test-next-seo.netlify.app" />
+        <meta
+          property="twitter:url"
+          content="https://test-next-seo.netlify.app/article/"
+        />
+        <meta name="twitter:title" content="Core Web Vitals" />
+        <meta
+          name="twitter:description"
+          content="Core Web Vitals are the subset of Web Vitals that apply to all web pages, should be measured by all site owners, and will be surfaced across all Google tools"
+        />
+        <meta
+          name="twitter:image"
+          content="https://web-dev.imgix.net/image/tcFciHGuF3MxnTr1y5ue01OGLBn2/ZZU8Z7TMKXmzZT2mCjJU.svg"
+        />
       </Head>
       <main className={styles.main}>
         <h1 className={styles.title}>Core Web Vitals</h1>
